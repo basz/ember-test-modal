@@ -1,0 +1,21 @@
+{{outlet}}
+
+<pre>
+on controller: authentication liquid-fire should observe these for non default values.
+modalAuthenticatedUser : {{modalAuthenticateUser}}
+modalCreateAccount     : {{modalCreateAccount}}
+modalPasswordReset     : {{modalPasswordReset}}
+</pre>
+<hr>
+
+{{#link-to 'authentication.create-account' }}
+  create account
+{{/link-to}}
+
+{{#link-to 'authentication.password-reset' }}
+  password reset
+{{/link-to}}
+
+{{#link-to 'authentication.authenticate' }}
+  sign in
+{{/link-to}}

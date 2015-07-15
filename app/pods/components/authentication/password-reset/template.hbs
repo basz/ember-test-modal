@@ -1,0 +1,10 @@
+password reset
+{{yield}}
+
+{{#link-to 'authentication.authenticate'  (query-params action="authenticate") }}
+  sign in
+{{/link-to}}
+
+{{#link-to 'authentication.create-account' (query-params action="create-account") }}
+  create account
+{{/link-to}}

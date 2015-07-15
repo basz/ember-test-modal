@@ -35,6 +35,6 @@
     "ember-data": "1.13.5",
     "ember-disable-proxy-controllers": "^1.0.0",
     "ember-export-application-global": "^1.0.2",
-    "liquid-fire": "0.20.4"
+    "liquid-fire": "git://github.com/ef4/liquid-fire.git#4fe371be597eea5a73ac6a575defac2c9d82f44a"
   }
 }
